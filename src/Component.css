@@ -1,0 +1,72 @@
+.main>p{
+    margin-left: 100px;
+}
+.q1{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    /* border: 2px solid red; */
+    width: max-content;
+    margin: auto;
+}
+.q1 input{
+    border: 2px solid grey;
+    outline: none;
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 4px;
+    padding-left: 20px;
+    font-size: 18px;
+}
+textarea{
+    border: 2px solid grey;
+    outline: none;
+    border-radius: 5px;
+    padding: 4px;
+    padding-left: 20px;
+    font-size: 18px;
+}
+.q1 input::placeholder,textarea::placeholder{
+    color: rgb(34, 33, 33);
+    font-size: 17px;
+}
+.q1 p{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(17, 0, 255);
+}
+.EnteredText{
+    color: black;
+    margin-left: 10px;
+}
+.q2{
+    /* border: 2px solid red; */
+    width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.q2 p{
+    margin-bottom: 40px;
+}
+.q2 button{
+    margin: auto;
+    width: 140px;
+    height: 35px;
+    font-size: 15px;
+    border: none;
+    background-color: orange;
+    border-radius: 10px;
+    cursor: pointer;
+}
+footer p{
+    width: max-content;
+    margin: auto;
+    font-weight: 500;
+    font-size: 16px;
+}
+footer{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
